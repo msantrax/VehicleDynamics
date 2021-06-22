@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Documentação da Gramática DTD</title>
+<meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+</head>
+
+<!-- Generated on 03/03/2013 by NetBeans XML module. -->
+<body>
+
+<hr />
+<h2>Índice de Elementos</h2>
+<ul><li><tt><a href="#display">display</a></tt></li>
+<li><tt><a href="#linha">linha</a></tt></li>
+<li><tt><a href="#monitor">monitor</a></tt></li>
+<li><tt><a href="#spacer">spacer</a></tt></li>
+</ul>
+
+<hr />
+<h2>Detalhes de Elementos</h2>
+
+
+<hr />
+<h2><a name="monitor"></a>monitor</h2>
+
+<p><b>Atributos Declarados</b></p>
+<ul><li><tt>#DEFAULT CDATA nome = Monitor VD</tt></li>
+<li><tt>#DEFAULT CDATA desc = Descrição da tela de monitor</tt></li>
+<li><tt>#DEFAULT CDATA bkg = 009500</tt></li>
+<li><tt>#DEFAULT CDATA maxlin = 8</tt></li>
+<li><tt>#DEFAULT CDATA maxcol = 8</tt></li>
+</ul>
+<p><b>Modelo de Conteúdo de Elemento</b></p>
+<p><tt>(<a href="#linha">linha</a>&nbsp;| <a href="#spacer">spacer</a>)*</tt></p>
+<p><b>Referenciado por</b></p>
+<p><tt></tt></p>
+
+
+<hr />
+<h2><a name="linha"></a>linha</h2>
+
+<p><b>Atributos Declarados</b></p>
+<ul><li><tt>#DEFAULT CDATA nome = Linha de analise</tt></li>
+<li><tt>#DEFAULT CDATA desc = Tipo de linha de analise</tt></li>
+<li><tt>#DEFAULT CDATA bkg = 009500</tt></li>
+<li><tt>#DEFAULT CDATA frg = FFFFFF</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( sim | nao ) visivel = sim</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( default | escuro | realce | branco ) display = default</tt></li>
+<li><tt>#DEFAULT CDATA hd_tam = 14</tt></li>
+<li><tt>#DEFAULT CDATA hd_tipo = Dialog</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( plano | negrito | italico ) hd_estilo = plano</tt></li>
+<li><tt>#DEFAULT CDATA pn_tam = 20</tt></li>
+<li><tt>#DEFAULT CDATA pn_tipo = Dialog</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( plano | negrito | italico ) pn_estilo = negrito</tt></li>
+</ul>
+<p><b>Modelo de Conteúdo de Elemento</b></p>
+<p><tt>(<a href="#display">display</a>)*</tt></p>
+<p><b>Referenciado por</b></p>
+<p><tt><a href="#monitor">monitor</a></tt></p>
+
+
+<hr />
+<h2><a name="display"></a>display</h2>
+
+<p><b>Atributos Declarados</b></p>
+<ul><li><tt>#REQUIRED CDATA nome</tt></li>
+<li><tt>#REQUIRED CDATA canal</tt></li>
+<li><tt>#DEFAULT CDATA desc = Widget de display de dados</tt></li>
+<li><tt>#DEFAULT CDATA a0 = 0</tt></li>
+<li><tt>#DEFAULT CDATA a1 = 1</tt></li>
+<li><tt>#DEFAULT CDATA a2 = 0</tt></li>
+<li><tt>#DEFAULT CDATA a3 = 0</tt></li>
+<li><tt>#DEFAULT CDATA a4 = 0</tt></li>
+<li><tt>#DEFAULT CDATA a5 = 0</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( sim | nao ) digital = nao</tt></li>
+<li><tt>#DEFAULT CDATA mascara = ##0.0</tt></li>
+<li><tt>#DEFAULT CDATA maximo = -1E06</tt></li>
+<li><tt>#DEFAULT CDATA minimo = 1E06</tt></li>
+<li><tt>#DEFAULT CDATA ring = 32</tt></li>
+<li><tt>#DEFAULT CDATA roffset = 0</tt></li>
+<li><tt>#DEFAULT CDATA rslope = 1</tt></li>
+<li><tt>#DEFAULT CDATA script</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( SN | SO | CN | CO ) tipo = SN</tt></li>
+<li><tt>#DEFAULT CDATA unidade = C</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( sim | nao ) armazenar = nao</tt></li>
+<li><tt>#DEFAULT CDATA span = 1</tt></li>
+</ul>
+<p><b>Modelo de Conteúdo de Elemento</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenciado por</b></p>
+<p><tt><a href="#linha">linha</a></tt></p>
+
+
+<hr />
+<h2><a name="spacer"></a>spacer</h2>
+
+<p><b>Atributos Declarados</b></p>
+<ul><li><tt>#REQUIRED CDATA altura</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( nao | simples | bevel | inset ) borda = nao</tt></li>
+<li><tt>#DEFAULT ENUMERATION ( sim | nao ) elastico = nao</tt></li>
+</ul>
+<p><b>Modelo de Conteúdo de Elemento</b></p>
+<p><tt>(#PCDATA)*</tt></p>
+<p><b>Referenciado por</b></p>
+<p><tt><a href="#monitor">monitor</a></tt></p>
+</body></html>

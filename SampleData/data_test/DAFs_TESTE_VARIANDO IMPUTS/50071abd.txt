@@ -1,0 +1,4 @@
+50071abd.DAF
+50071ac0.MAF teste AMS - trigger 10ms duration 200ms - 20seg
+ScanRate/s:  2000 => 500 us, R0Timer: 250 us, Messraster: 10000 us
+Real-Timer, 1x PCMCIA-Karten

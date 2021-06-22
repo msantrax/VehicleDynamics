@@ -1,0 +1,5 @@
+ij.protocol=jdbc:derby://localhost:1527/
+ij.database=Vega
+ij.user=vega
+ij.password=vega
+

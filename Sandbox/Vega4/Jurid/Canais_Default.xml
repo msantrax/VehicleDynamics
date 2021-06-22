@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE monitor SYSTEM "Canais.dtd">
+
+
+<monitor 
+    nome="MONITOR DE TESTE- Vehicle" 
+    desc="Monitor de teste (carga via arquivo XML)"
+    bkg="000000"
+    porta="/dev/ttyS0"
+    baudrate="19200"
+    pool="200"
+    >
+   
+    <linha
+        pn_tam="14"
+        hd_tam="10"
+        hd_estilo="negrito">  
+        <display
+            nome="Termopar1"
+            canal="1"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="Termopar2"
+            canal="2"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="Termopar3"
+            canal="3"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="04"
+            canal="4"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="05"
+            canal="5"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="06"
+            canal="6"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="07"
+            canal="7"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="08"
+            canal="8"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+    </linha>
+   
+    <linha
+        pn_tam="14"
+        hd_tam="10"
+        hd_estilo="negrito">  
+        <display
+            nome="09-Pressão-D"
+            canal="9"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="09-Pressão-D"
+            canal="10"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="11-Aceleração"
+            canal="11"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="12-Curso Pedal"
+            canal="12"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="13-Força Pedal"
+            canal="13"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="14-Temp Ambiente"
+            canal="14"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="15-Jurid Esq."
+            canal="15"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>
+        <display
+            nome="16-Jurid Dir."
+            canal="16"
+            mascara="#####"
+            unidade="Cnt"
+            span="1">
+        </display>      
+    </linha>
+    
+     <linha
+        pn_tam="14"
+        hd_tam="10"
+        hd_estilo="negrito">  
+        
+         <display
+            nome="Distancia"
+            canal="17"
+            mascara="########"
+            unidade="Cnt"
+            span="1">
+        </display>
+        
+        <display
+            nome="Velocidade"
+            canal="17"
+            mascara="######.#"
+            widget="velocidade"
+            span="1">
+        </display>
+        
+        
+        <display
+            nome="Timer"
+            canal="22"
+            mascara="fall;12;%1$tM:%1$tS"
+            widget="timer"
+            span="1">
+        </display>
+        
+         <display
+            nome="Counter1"
+            canal="22"
+            widget="contador"
+            span="1">
+        </display>
+            
+    </linha>
+    
+     <linha
+         visivel="sim"
+         nome="Canais digitais"
+         pn_tam="14"
+         hd_tam="12"
+         hd_estilo="negrito">  
+    
+          <display
+              nome="20-Mark"
+              canal="20"
+              mascara="#"
+              widget="digital"
+            span="1">
+        </display>
+        <display
+            nome="21-Separation"
+            canal="21"
+            mascara="#"
+            widget="digital"
+            span="1">
+        </display>
+        <display
+            nome="22-Trigger"
+            canal="22"
+            mascara="#"
+            widget="digital"
+            span="1">
+        </display>
+        
+     </linha>
+     
+</monitor>

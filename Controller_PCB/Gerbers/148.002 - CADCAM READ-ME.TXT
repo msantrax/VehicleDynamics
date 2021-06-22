@@ -1,0 +1,94 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'Rigel3-a.LYT'.
+CADCAM generated at 23:39:27 on segunda-feira, 12 de dezembro de 2011.
+
+File List
+---------
+Top Copper              : 148.002 - CADCAM Top Copper.TXT
+Bottom Copper           : 148.002 - CADCAM Bottom Copper.TXT
+Top Silk Screen         : 148.002 - CADCAM Top Silk Screen.TXT
+Bottom Silk Screen      : 148.002 - CADCAM Bottom Silk Screen.TXT
+Top Solder Resist       : 148.002 - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : 148.002 - CADCAM Bottom Solder Resist.TXT
+Top SMT Paste Mask      : 148.002 - CADCAM Top SMT Paste Mask.TXT
+Bottom SMT Paste Mask   : 148.002 - CADCAM Bottom SMT Paste Mask.TXT
+Drill                   : 148.002 - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height
+
+D10	CIRCLE	D=12th                                      DRAW
+D11	CIRCLE	D=8th                                       DRAW
+D12	CIRCLE	D=10th                                      DRAW
+D13	CIRCLE	D=20th                                      DRAW
+D14	CIRCLE	D=30th                                      DRAW
+D15	CIRCLE	D=25th                                      DRAW
+D16	CIRCLE	D=15th                                      DRAW
+D17	CIRCLE	D=40th                                      FLASH
+D18	CIRCLE	D=2.5th                                     DRAW
+D19	SQUARE	S=50th                                      FLASH
+D70	CIRCLE	D=50th                                      FLASH
+D71	CIRCLE	D=45th                                      FLASH
+D20	CIRCLE	D=90th                                      FLASH
+D21	SMT	W=160th               H=100th               FLASH
+D22	SMT	W=100th               H=40th                FLASH
+D23	CIRCLE	D=60th                                      FLASH
+D24	CIRCLE	D=150th                                     FLASH
+D25	CIRCLE	D=80th                                      FLASH
+D26	CIRCLE	D=70th                                      FLASH
+D27	SQUARE	S=80th                                      FLASH
+D28	CIRCLE	D=7.9th                                     DRAW
+D29	CIRCLE	D=50th                                      DRAW
+D72	CIRCLE	D=2.4th                                     DRAW
+D73	SMT	W=60th                H=80th                FLASH
+D30	SMT	W=150th               H=80th                FLASH
+D31	SMT	W=50th                H=40th                FLASH
+D32	SMT	W=60th                H=40th                FLASH
+D33	SMT	W=10th                H=10th                FLASH
+D34	SMT	W=30th                H=20th                FLASH
+D35	SMT	W=200th               H=60th                FLASH
+D36	SMT	W=40th                H=60th                FLASH
+D37	SMT	W=60th                H=200th               FLASH
+D38	SMT	W=40th                H=100th               FLASH
+D39	SMT	W=70th                H=70th                FLASH
+D40	CIRCLE	D=65th                                      FLASH
+D41	CIRCLE	D=110th                                     FLASH
+D42	SMT	W=180th               H=120th               FLASH
+D43	SMT	W=120th               H=60th                FLASH
+D44	CIRCLE	D=170th                                     FLASH
+D45	CIRCLE	D=100th                                     FLASH
+D46	SMT	W=100th               H=100th               FLASH
+D47	SMT	W=80th                H=100th               FLASH
+D48	SMT	W=170th               H=100th               FLASH
+D49	SMT	W=70th                H=60th                FLASH
+D50	SMT	W=80th                H=60th                FLASH
+D51	SMT	W=30th                H=30th                FLASH
+D52	SMT	W=220th               H=80th                FLASH
+D53	SMT	W=80th                H=220th               FLASH
+D54	SMT	W=60th                H=120th               FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	15th (0-15)
+T02	30th (0-15)
+T03	35th (0-15)
+T04	75th (0-15)
+T05	20th (0-15)
+T06	50th (0-15)
+T07	125th (0-15)
+T08	25th (0-15)
+T09	40th (0-15)
+T10	118.1th (0-15)
+T11	70th (0-15)
+
+
+[END OF FILE]

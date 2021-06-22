@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_opus">
+                <file name="centauro" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.opus.CentauroTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.opus//centauro//EN"/>
+                </file>
+                <file name="Jurid" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.opus.JuridTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.opus//Jurid//EN"/>
+                </file>
+                <file name="Monitor" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.opus.MonitorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.opus//Monitor//EN"/>
+                </file>
+                <file name="Simulator" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.opus.SimulatorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.opus//Simulator//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="opus">
+                    <file name="CentauroTopComponent">
+                        <!--com.opus.CentauroTopComponent-->
+                        <attr name="settings.providerPath" stringvalue="xml/lookups//com_opus/centauro.instance"/>
+                    </file>
+                    <file name="JuridTopComponent">
+                        <!--com.opus.JuridTopComponent-->
+                        <attr name="settings.providerPath" stringvalue="xml/lookups//com_opus/Jurid.instance"/>
+                    </file>
+                    <file name="MonitorTopComponent">
+                        <!--com.opus.MonitorTopComponent-->
+                        <attr name="settings.providerPath" stringvalue="xml/lookups//com_opus/Monitor.instance"/>
+                    </file>
+                    <file name="SimulatorTopComponent">
+                        <!--com.opus.SimulatorTopComponent-->
+                        <attr name="settings.providerPath" stringvalue="xml/lookups//com_opus/Simulator.instance"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_opus">
+                <file name="centauro.instance">
+                    <!--com.opus.CentauroTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.opus.CentauroTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.opus.CentauroTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Jurid.instance">
+                    <!--com.opus.JuridTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.opus.JuridTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.opus.JuridTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Monitor.instance">
+                    <!--com.opus.MonitorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.opus.MonitorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.opus.MonitorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Simulator.instance">
+                    <!--com.opus.SimulatorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.opus.SimulatorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.opus.SimulatorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="com-opus-JuridAction.instance">
+                <!--com.opus.JuridAction-->
+                <attr name="displayName" stringvalue="Abrir terminal Jurid"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="com.opus.JuridAction"/>
+                <attr name="iconBase" stringvalue="com/opus/atlantik.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="com-opus-JuridRawAction.instance">
+                <!--com.opus.JuridRawAction-->
+                <attr bundlevalue="com.opus.Bundle#CTL_JuridRawAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="com.opus.JuridRawAction"/>
+                <attr name="iconBase" stringvalue="com/opus/rebuild.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="com-opus-MonitorChooserAction.instance">
+                <!--com.opus.MonitorChooserAction-->
+                <attr
+                    bundlevalue="com.opus.Bundle#CTL_MonitorChooserAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="com.opus.MonitorChooserAction"/>
+                <attr name="iconBase" stringvalue="com/opus/view_fit_window.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="com-opus-MonitorPadraoAction.instance">
+                <!--com.opus.MonitorPadraoAction-->
+                <attr
+                    bundlevalue="com.opus.Bundle#CTL_MonitorPadraoAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="com.opus.MonitorPadraoAction"/>
+                <attr name="iconBase" stringvalue="com/opus/view_remove.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="com-opus-OpenCentauroAction.instance">
+                <!--com.opus.OpenCentauroAction-->
+                <attr
+                    bundlevalue="com.opus.Bundle#CTL_OpenCentauroAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="com.opus.OpenCentauroAction"/>
+                <attr name="iconBase" stringvalue="com/opus/openterm.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="com-opus-ScanAction.instance">
+                <!--com.opus.ScanAction-->
+                <attr bundlevalue="com.opus.Bundle#CTL_ScanAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="com.opus.MonitorContext"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="com.opus.ScanAction"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="com/opus/player_play.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="com-opus-SimulatorAction.instance">
+                <!--com.opus.SimulatorAction-->
+                <attr name="displayName" stringvalue="Habilitar Simulador"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="com.opus.MonitorContext"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="com.opus.SimulatorAction"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="com/opus/clanbomber.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="com-opus-centauroTopComponent.instance">
+                <!--com.opus.CentauroTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.opus.CentauroTopComponent"/>
+                <attr name="preferredID" stringvalue="centauroTopComponent"/>
+                <attr name="displayName" stringvalue="Painel Centauro"/>
+                <attr name="iconBase" stringvalue="com/opus/atlantik.png"/>
+            </file>
+            <file name="com-opus-JuridTopComponent.instance">
+                <!--com.opus.JuridTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.opus.JuridTopComponent"/>
+                <attr name="preferredID" stringvalue="JuridTopComponent"/>
+                <attr bundlevalue="com.opus.Bundle#CTL_JuridAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="com/opus/hdd_mount.png"/>
+            </file>
+            <file name="com-opus-MonitorTopComponent.instance">
+                <!--com.opus.MonitorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.opus.MonitorTopComponent"/>
+                <attr name="preferredID" stringvalue="MonitorTopComponent"/>
+                <attr name="displayName" stringvalue="Carregar Monitor"/>
+                <attr name="iconBase" stringvalue="com/opus/monitor_icon.png"/>
+            </file>
+            <file name="com-opus-SimulatorTopComponent.instance">
+                <!--com.opus.SimulatorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.opus.SimulatorTopComponent"/>
+                <attr name="preferredID" stringvalue="SimulatorTopComponent"/>
+                <attr name="displayName" stringvalue="Simulador"/>
+                <attr name="iconBase" stringvalue="com/opus/clanbomber.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="File">
+            <file name="com-opus-JuridAction.shadow">
+                <!--com.opus.JuridAction-->
+                <attr name="originalFile" stringvalue="Actions/File/com-opus-JuridAction.instance"/>
+                <attr intvalue="1045" name="position"/>
+            </file>
+            <file name="com-opus-JuridRawAction.shadow">
+                <!--com.opus.JuridRawAction-->
+                <attr name="originalFile" stringvalue="Actions/File/com-opus-JuridRawAction.instance"/>
+                <attr intvalue="1040" name="position"/>
+            </file>
+            <file name="com-opus-MonitorChooserAction.shadow">
+                <!--com.opus.MonitorChooserAction-->
+                <attr name="originalFile" stringvalue="Actions/File/com-opus-MonitorChooserAction.instance"/>
+                <attr intvalue="1010" name="position"/>
+            </file>
+            <file name="com-opus-MonitorPadraoAction.shadow">
+                <!--com.opus.MonitorPadraoAction-->
+                <attr name="originalFile" stringvalue="Actions/File/com-opus-MonitorPadraoAction.instance"/>
+                <attr intvalue="1000" name="position"/>
+            </file>
+            <file name="com-opus-OpenCentauroAction.shadow">
+                <!--com.opus.OpenCentauroAction-->
+                <attr name="originalFile" stringvalue="Actions/File/com-opus-OpenCentauroAction.instance"/>
+                <attr intvalue="1020" name="position"/>
+            </file>
+            <file name="com-opus-ScanAction.shadow">
+                <!--com.opus.ScanAction-->
+                <attr name="originalFile" stringvalue="Actions/File/com-opus-ScanAction.instance"/>
+                <attr intvalue="1050" name="position"/>
+            </file>
+            <file name="com-opus-ScanAction-separatorBefore.instance">
+                <!--com.opus.ScanAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="1045" name="position"/>
+            </file>
+            <file name="com-opus-SimulatorAction.shadow">
+                <!--com.opus.SimulatorAction-->
+                <attr name="originalFile" stringvalue="Actions/File/com-opus-SimulatorAction.instance"/>
+                <attr intvalue="1070" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="com-opus-centauroTopComponent.shadow">
+                <!--com.opus.CentauroTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-opus-centauroTopComponent.instance"/>
+            </file>
+            <file name="com-opus-JuridTopComponent.shadow">
+                <!--com.opus.JuridTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-opus-JuridTopComponent.instance"/>
+            </file>
+        </folder>
+        <folder name="Monitores">
+            <file name="com-opus-MonitorTopComponent.shadow">
+                <!--com.opus.MonitorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-opus-MonitorTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="F6.shadow">
+            <!--com.opus.JuridAction-->
+            <attr name="originalFile" stringvalue="Actions/File/com-opus-JuridAction.instance"/>
+        </file>
+        <file name="F5.shadow">
+            <!--com.opus.JuridRawAction-->
+            <attr name="originalFile" stringvalue="Actions/File/com-opus-JuridRawAction.instance"/>
+        </file>
+        <file name="F3.shadow">
+            <!--com.opus.MonitorChooserAction-->
+            <attr name="originalFile" stringvalue="Actions/File/com-opus-MonitorChooserAction.instance"/>
+        </file>
+        <file name="F2.shadow">
+            <!--com.opus.MonitorPadraoAction-->
+            <attr name="originalFile" stringvalue="Actions/File/com-opus-MonitorPadraoAction.instance"/>
+        </file>
+        <file name="F4.shadow">
+            <!--com.opus.OpenCentauroAction-->
+            <attr name="originalFile" stringvalue="Actions/File/com-opus-OpenCentauroAction.instance"/>
+        </file>
+        <file name="F8.shadow">
+            <!--com.opus.ScanAction-->
+            <attr name="originalFile" stringvalue="Actions/File/com-opus-ScanAction.instance"/>
+        </file>
+        <file name="F9.shadow">
+            <!--com.opus.SimulatorAction-->
+            <attr name="originalFile" stringvalue="Actions/File/com-opus-SimulatorAction.instance"/>
+        </file>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="centauroTopComponent.settings">
+                <!--com.opus.CentauroTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.opus.CentauroTopComponent"/>
+</settings>
+]]></file>
+            <file name="JuridTopComponent.settings">
+                <!--com.opus.JuridTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.opus.JuridTopComponent"/>
+</settings>
+]]></file>
+            <file name="MonitorTopComponent.settings">
+                <!--com.opus.MonitorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.opus.MonitorTopComponent"/>
+</settings>
+]]></file>
+            <file name="SimulatorTopComponent.settings">
+                <!--com.opus.SimulatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.opus.SimulatorTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="centauroTopComponent.wstcref">
+                    <!--com.opus.CentauroTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="centauroTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="JuridTopComponent.wstcref">
+                    <!--com.opus.JuridTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="JuridTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+                <file name="SimulatorTopComponent.wstcref">
+                    <!--com.opus.SimulatorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="SimulatorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="editor">
+                <file name="MonitorTopComponent.wstcref">
+                    <!--com.opus.MonitorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="MonitorTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

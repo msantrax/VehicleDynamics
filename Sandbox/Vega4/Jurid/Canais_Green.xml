@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE monitor SYSTEM "Canais.dtd">
+
+
+<monitor 
+    nome="MONITOR DE TESTE" 
+    desc="Monitor de teste (carga via arquivo XML)"
+    bkg="009500">
+    
+    <spacer
+        altura = "20">    
+    </spacer>
+    
+    <linha
+        visivel="nao"
+        nome="Pressôes e Forças"
+        pn_tam="30"
+        hd_tam="10"
+        hd_estilo="negrito">  
+        <display
+            nome="Pressão Dianteira"
+            canal="9"
+            desc="Pressão no cicuito dianteiro"
+            mascara="##.##"
+            unidade="PSI"
+            span="2">
+        </display>
+        <display
+            nome="Pressão Trazeira"
+            canal="10"
+            desc="Pressão no cicuito Trazeiro"
+            mascara="##.##"
+            unidade="PSI"
+            span="2">
+        </display>
+        <display
+            nome="Força no Pedal"
+            mascara="##.##"
+            unidade=""
+            canal="13"
+            span="2">
+        </display>
+        <display
+            nome="Curso do Pedal"
+            mascara="###"
+            unidade="mm"
+            a0="8.95E-01"
+            canal="12"
+            span="2">
+        </display>
+    </linha>
+    
+    <spacer
+        altura = "20">    
+    </spacer>
+    
+    <linha
+        visivel = "nao"
+        nome="Leituras de Temperatura "
+        hd_tam="14"
+        pn_tam="16">
+        <display
+            nome="Disco Esquerdo"
+            canal="1"
+            unidade="C"
+            desc="Leitura do disco lado esquerdo">
+        </display>
+        <display
+            nome="Disco Direito"
+            canal="2">
+        </display>
+        <display
+            nome="Pastilha Esquerda"
+            canal="3">
+        </display>
+        <display
+            nome="Pastilha Direita"
+            canal="4">
+        </display>
+        <display
+            nome="Temp. Ambiente"
+            canal="14">
+        </display>
+        <display
+            nome="LD spare2"
+            canal="4">
+        </display>
+         <display
+            nome="teste2"
+            canal="14">
+        </display>
+        <display
+            nome="teste3"
+            canal="4">
+        </display>
+    </linha>
+    
+     <linha
+        visivel = "nao">
+        <display
+            nome="Disco Esquerdo"
+            digital= "sim"
+            canal="1">
+        </display>
+        <display
+            nome="Disco Direito"
+            digital= "sim"
+            canal="2">
+        </display>
+        <display
+            nome="Pastilha Esquerda"
+            digital = "sim"
+            canal="3">
+        </display>
+        
+    </linha>
+    
+    
+</monitor>

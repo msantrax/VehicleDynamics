@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-opus-CentauroTopComponent.instance">
+                <attr name="displayName" stringvalue="Painel Centauro"/>
+                <attr name="iconBase" stringvalue="com/opus/atlantik.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+                <attr name="preferredID" stringvalue="centauroTopComponent"/>
+            </file>
+            <file name="com-opus-centauroTopComponent.instance_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="File">
+            <file name="org-netbeans-modules-options-OptionsWindowAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-netbeans-modules-options-OptionsWindowAction.instance"/>
+            </file>
+            
+        </folder>
+        <file name="GoTo_hidden"/>
+        <folder name="Monitores">
+            <attr name="position" intvalue="330"/>
+            <file name="com-opus-MonitorTopComponent.shadow_hidden"/>
+        </folder>        
+            <file name="Tools_hidden"/>
+        <folder name="Window">
+            <file name="ProgressListAction.shadow_hidden"/>
+            <file name="SwitchToRecentDocumentAction.shadow_hidden"/>
+            <file name="com-opus-JuridTopComponent.shadow_hidden"/>
+            <file name="com-opus-SimulatorTopComponent.shadow_hidden"/>
+        </folder>
+    </folder>
+</filesystem>

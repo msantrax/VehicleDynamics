@@ -1,0 +1,12 @@
+2011-12-15 22:50:26.509 GMT : Warning: UnknkownHostException: proteus.opus-ciencia.com.br: proteus.opus-ciencia.com.br.
+2011-12-15 22:50:26.512 GMT : Apache Derby Network Server - 10.5.3.0 - (802917) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+2011-12-15 22:50:26.798 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0134-43eb-6045-ffff9edbbc6f
+on database directory /Bascon/Vega/Database/Vega  
+
+Database Class Loader started - derby.database.classpath=''
+
+2011-12-15 22:52:41.614 GMT:
+Shutting down instance a816c00e-0134-43eb-6045-ffff9edbbc6f
+----------------------------------------------------------------

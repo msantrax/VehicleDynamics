@@ -1,0 +1,1 @@
+ CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE (null,'CLASSMAP','/Bascon/Vega/Database/classmap.dmp',null,null,null,0);

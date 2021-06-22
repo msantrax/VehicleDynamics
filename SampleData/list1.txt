@@ -1,0 +1,377 @@
+Iniciando Jurid
+
+RESET VERSION : C04d_____131189 / 300KMH . Software for : upGeraet
+
+distance pulses adjust to 20808 pulses/km 
+029km/h = speed-threshold (km/h) for acoustic signal in fadeprogram
+
+
+START: PROGRAMM/CHANNEL :40 DATE/TIME/DEVICE NO.24.10./10:24/00
+
+STATIC TEST 
+
+
+INTERFACE INITIALIZED[ESC+90]ZD
+Q
+STOP: PROGRAMM/CHANNEL :40 DATE/TIME/DEVICE NO.24.10./10:25/00
+  6,0% memory used
+
+START: PROGRAMM/CHANNEL :40 DATE/TIME/DEVICE NO.24.10./10:25/00
+
+STATIC TEST 
+
+
+INTERFACE INITIALIZED[ESC+90]ZD
+Q
+STOP: PROGRAMM/CHANNEL :40 DATE/TIME/DEVICE NO.24.10./10:25/00
+  6,5% memory used
+
+START: PROGRAMM/CHANNEL :42 DATE/TIME/DEVICE NO.24.10./10:25/00
+
+FADE PROGRAM ; IF PNEUMATIC MULTIPLY BY * 0,1
+ST.NO INC.TIME BR.TIME   TEMPERATURES (CELSIUS)   Ti/Tf                   Ti                      MAX-/AVERAGE VALUES         V(km/h)
+      min/sec    sec       LF        RF        LR        RR     LFF  RFF  LRF  RRF EXT    P1(bar)  P2(bar)  PT (mm)  D (%)     i / f 
+
+
+[ESC+40](007,015,025,034,043,052,065,070,075,080,085,091,100,109,118,127.* 01
+ 00:18
+ 00:03,3
+-48/-48
+-49/-49
+-52/-51
+-50/-50
+-51
+-50
+-49
+-50
+-49
+  1/  0
+- 0/- 0
+- 0/- 0
+  0/  0
+ 68/ 20
+0/  0
+ 68/ 20
+
+[ESC+40](007,015,025,034,043,052,065,070,075,080,085,091,100,109,118,127.* 02
+ 00:31
+ 00:03,9
+-47/-48
+-49/-49
+-52/-52
+-50/-50
+-50
+-50
+-49
+-50
+-50
+  0/  0
+- 0/- 0
+- 0/- 0
+  0/  0
+ 69/ 19
+0/  0
+ 69/ 19
+
+[ESC+40](007,015,025,034,043,052,065,070,075,080,085,091,100,109,118,127.* 03
+ 00:46
+ 00:04,2
+-48/-48
+-48/-48
+-52/-50
+-51/-50
+-51
+-50
+-49
+-50
+-50
+  1/  0
+- 0/- 0
+- 0/- 0
+  0/  0
+ 83/ 19
+0/  0
+ 83/ 19
+
+[ESC+40](007,015,025,034,043,052,065,070,075,080,085,091,100,109,118,127.* 04
+ 01:03
+ 00:03,0
+-48/-47
+-48/-48
+-52/-52
+-50/-50
+-50
+-50
+-49
+-50
+-50
+  1/  0
+- 0/- 0
+- 0/- 0
+  0/  0
+ 70/ 20
+0/  0
+ 70/ 20
+
+
+INTERFACE INITIALIZED[ESC+90]ZD
+Q
+STOP: PROGRAMM/CHANNEL :42 DATE/TIME/DEVICE NO.24.10./10:26/00
+  9,9% memory used
+
+START: PROGRAMM/CHANNEL :40 DATE/TIME/DEVICE NO.24.10./10:26/00
+
+STATIC TEST 
+
+
+INTERFACE INITIALIZED[ESC+90]ZD
+Q
+STOP: PROGRAMM/CHANNEL :40 DATE/TIME/DEVICE NO.24.10./10:27/00
+ 10,4% memory used
+
+START: PROGRAMM/CHANNEL :42 DATE/TIME/DEVICE NO.24.10./10:27/00
+
+FADE PROGRAM ; IF PNEUMATIC MULTIPLY BY * 0,1
+ST.NO INC.TIME BR.TIME   TEMPERATURES (CELSIUS)   Ti/Tf                   Ti                      MAX-/AVERAGE VALUES         V(km/h)
+      min/sec    sec       LF        RF        LR        RR     LFF  RFF  LRF  RRF EXT    P1(bar)  P2(bar)  PT (mm)  D (%)     i / f 
+
+
+[ESC+40](007,015,025,034,043,052,065,070,075,080,085,091,100,109,118,127.* 01
+ 00:09
+ 00:03,6
+-47/-47
+-48/-48
+-52/-52
+-50/-50
+-50
+-51
+-49
+-49
+-50
+  1/  0
+- 0/- 0
+- 0/- 0
+  0/  0
+ 61/ 19
+0/  0
+ 61/ 19
+
+[ESC+40](007,015,025,034,043,052,065,070,075,080,085,091,100,109,118,127.* 02
+ 00:20
+ 00:04,0
+-47/-48
+-49/-49
+-52/-52
+-51/-50
+-50
+-51
+-47
+-50
+-50
+  1/  0
+  0/- 0
+- 0/- 0
+  0/  0
+ 71/ 19
+0/  0
+ 71/ 19
+
+
+INTERFACE INITIALIZED[ESC+90]ZD
+Q
+STOP: PROGRAMM/CHANNEL :42 DATE/TIME/DEVICE NO.24.10./10:28/00
+ 12,5% memory used
+
+START: PROGRAMM/CHANNEL :72 DATE/TIME/DEVICE NO.24.10./10:28/00
+
+
+INTERFACE INITIALIZED[ESC+90]ZD
+Q
+STOP: PROGRAMM/CHANNEL :72 DATE/TIME/DEVICE NO.24.10./10:29/00
+ 12,5% memory used
+
+START: PROGRAMM/CHANNEL :92 DATE/TIME/DEVICE NO.24.10./10:29/00
+
+TEST LOCATION  :_________________________________________________________________
+
+VEHICLE  :___________________ TYPE :__________________ ODOMETER READING :________km
+
+WEIGHT         :_________kg  -FA:_________kg  -RA:_________kg  DRIVER:______________
+
+BRAKE SYST. FA :____________________________ RA :_________________________________
+
+BRAKE LIN.  FA :____________________________ RA :_________________________________
+
+NOISE       FA :____________________________ RA :_________________________________
+
+TIRE SIZE    :___________________________________________________________________
+
+WEAHTER      :___________________________________________________________________
+
+REMARKS      :___________________________________________________________________
+
+_________________________________________________________________________________
+
+DISK No.        :_______________FILE No. :_______________TEST No. :________________
+[ESC+109]m1[ESC+48]0[ESC+40](040.
+
+chan.:0 Disk left front
+chan.:1 Disk right front
+recording time: 00:01:10,75
+recording time: 00:01:10,75
+ll , ul : 40,640 (deg/C)
+ll , ul : 40,640 (deg/C)
+*******************************
+*******************************
+ class duration time   events  
+ class duration time   events  
+[ESC+48]0[ESC+40](009,024,041,049,064.-
+00:01:10,75
+   0
+-
+00:01:10,75
+   0
+  40
+00:00:00,00
+   0
+  40
+00:00:00,00
+   0
+  80
+00:00:00,00
+   0
+  80
+00:00:00,00
+   0
+ 120
+00:00:00,00
+   0
+ 120
+00:00:00,00
+   0
+ 160
+00:00:00,00
+   0
+ 160
+00:00:00,00
+   0
+ 200
+00:00:00,00
+   0
+ 200
+00:00:00,00
+   0
+ 240
+00:00:00,00
+   0
+ 240
+00:00:00,00
+   0
+ 280
+00:00:00,00
+   0
+ 280
+00:00:00,00
+   0
+ 320
+00:00:00,00
+   0
+ 320
+00:00:00,00
+   0
+ 360
+00:00:00,00
+   0
+ 360
+00:00:00,00
+   0
+ 400
+00:00:00,00
+   0
+ 400
+00:00:00,00
+   0
+ 440
+00:00:00,00
+   0
+ 440
+00:00:00,00
+   0
+ 480
+00:00:00,00
+   0
+ 480
+00:00:00,00
+   0
+ 520
+00:00:00,00
+   0
+ 520
+00:00:00,00
+   0
+ 560
+00:00:00,00
+   0
+ 560
+00:00:00,00
+   0
+ 600
+00:00:00,00
+   0
+ 600
+00:00:00,00
+   0
++
+00:00:00,00
+   0
++
+00:00:00,00
+   0
+*******************************
+*******************************
+& duration time: 00:01:10,75
+& duration time: 00:01:10,75
+& events       :         0
+& events       :         0
+
+[ESC+109]m1[ESC+48]0[ESC+40](040.
+
+chan.:2 Disk left rear
+chan.:3 Disk right rear
+recording time: 00:01:10,75
+recording time: 00:01:10,75
+ll , ul : 40,640 (deg/C)
+ll , ul : 40,640 (deg/C)
+*******************************
+*******************************
+ class duration time   events  
+ class duration time   events  
+[ESC+48]0[ESC+40](009,024,041,049,064.-
+00:01:10,75
+   0
+-
+00:01:10
+
+
+START: PROGRAMM/CHANNEL :C2 DATE/TIME/DEVICE NO.24.10./10:31/00
+
+START: PROGRAMM/CHANNEL :F3 DATE/TIME/DEVICE NO.24.10./10:31/00
+No of disc 4D1F43
+What file should be read ? select decade switch
+With START decade value is accepted , reading procedure starts
+programm is finished with STOP
+File no 01 reading
+File was read
+File was read
+
+START: PROGRAMM/CHANNEL :42 DATE/TIME/DEVICE NO.24.10./10:32/00
+
+FADE PROGRAM ; IF PNEUMATIC MULTIPLY BY * 0,1
+ST.NO INC.TIME BR.TIME   TEMPERATURES (CELSIUS)   Ti/Tf                   Ti                      MAX-/AVERAGE VALUES         V(km/h)
+      min/sec    sec       LF        RF        LR        RR     LFF  RFF  LRF  RRF EXT    P1(bar)  P2(bar)  PT (mm)  D (%)     i / f 
+
+
+INTERFACE INITIALIZED[ESC+90]ZD
+Q
+STOP: PROGRAMM/CHANNEL :42 DATE/TIME/DEVICE NO.24.10./10:32/00
+   ,4% memory used

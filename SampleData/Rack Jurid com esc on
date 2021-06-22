@@ -1,0 +1,45 @@
+Iniciando Jurid
+
+RESET VERSION : C04d_____131189 / 300KMH . Software for : upGeraet
+
+distance pulses adjust to 16000 pulses/km 
+300km/h = speed-threshold (km/h) for acoustic signal in fadeprogram
+
+
+START: PROGRAMM/CHANNEL :2C DATE/TIME/DEVICE NO.09.04./20:21/00
+END OF PROGRAM
+
+
+START: PROGRAMM/CHANNEL :08 DATE/TIME/DEVICE NO.09.04./20:21/00
+Input of pulse number/km (max. 36000).
+Input sequence : from right to left
+dial figure 1 und 2 ,than push "START".
+
+dial figure 3 und 4 ,than push "START".
+dial figure 5 und 6 (figure6=0) ,than push "START".
+21818 pulses/km 
+
+START: PROGRAMM/CHANNEL :07 DATE/TIME/DEVICE NO.09.04./20:21/00
+
+TEST LOCATION  :_________________________________________________________________
+
+VEHICLE  :___________________ TYPE :__________________ ODOMETER READING :________km
+
+WEIGHT         :_________kg  -FA:_________kg  -RA:_________kg  DRIVER:______________
+
+BRAKE SYST. FA :____________________________ RA :_________________________________
+
+BRAKE LIN.  FA :____________________________ RA :_________________________________
+
+NOISE       FA :____________________________ RA :_________________________________
+
+TIRE SIZE    :___________________________________________________________________
+
+WEAHTER      :___________________________________________________________________
+
+REMARKS      :___________________________________________________________________
+
+_________________________________________________________________________________
+
+DISK No.        :_______________FILE No. :_______________TEST No. :________________
+
